@@ -1,4 +1,3 @@
-//export const BASE_API_URL = 'https://scalingup-backend.clickittech.com';
 export const BASE_API_URL = "http://localhost:3005" 
 
 const fetchRequest = async (requestPath, requestParams = {}, headers = {}) => {
