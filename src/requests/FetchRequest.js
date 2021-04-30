@@ -1,4 +1,4 @@
-export const BASE_API_URL = "http://localhost:3005" 
+export const BASE_API_URL = "https://server-files-back.herokuapp.com" 
 
 const fetchRequest = async (requestPath, requestParams = {}, headers = {}) => {
 	try {
